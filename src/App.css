@@ -1,0 +1,169 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f9;
+  color: #333;
+}
+
+.App {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2px 0px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+/* Filters Section */
+.filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+select {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #fff;
+  transition: 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  min-width: 180px;
+}
+
+select:hover {
+  border-color: #2c3e50;
+  cursor: pointer;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0px;
+  display: block;
+  color: #444;
+}
+
+
+/* Events Grid */
+.event-list {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* Event Card */
+.event-card {
+  background: #ffffff;
+  padding: 25px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left;
+}
+.event-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.event-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #34495e;
+}
+
+.event-card p {
+  font-size: 0.95rem;
+  margin: 4px 0;
+  color: #555;
+}
+
+
+.intro-section {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 15px;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: row; /* Stack vertically on small screens */
+  align-items: center;
+  gap: 30px;
+}
+
+.intro-text {
+  flex: 1 1 100%;
+}
+
+.intro-title {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #000;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.intro-description {
+  font-size: 1.1rem;
+  color: #555;
+  text-align: left;
+}
+
+.intro-image {
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-image img {
+  width: 80%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .intro-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro-text,
+  .intro-image {
+    flex: 1;
+  }
+
+  .filters {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,111 @@
+const events = [
+    {
+      id: 1,
+      title: "React Workshop",
+      category: "Workshop",
+      date: "2025-05-20",
+      location: "Lahore",
+       imageUrl: "https://www.gwi-boell.de/sites/default/files/styles/social_media/public/importedFiles/2021/04/01/CLASS-web-FL_1.jpg.jpeg?itok=KwpUmct2"
+    },
+    {
+      id: 2,
+      title: "Startup Meetup",
+      category: "Meetup",
+      date: "2025-05-22",
+      location: "Karachi",
+    },
+    {
+      id: 3,
+      title: "Art Festival",
+      category: "Festival",
+      date: "2025-06-01",
+      location: "Islamabad",
+    },
+    {
+      id: 4,
+      title: "Tech Talk: AI Trends",
+      category: "Meetup",
+      date: "2025-06-05",
+      location: "Lahore",
+    },
+    {
+      id: 5,
+      title: "Design Thinking Workshop",
+      category: "Workshop",
+      date: "2025-06-10",
+      location: "Faisalabad",
+    },
+    {
+      id: 6,
+      title: "Food Truck Festival",
+      category: "Festival",
+      date: "2025-06-12",
+      location: "Karachi",
+    },
+    {
+      id: 7,
+      title: "Community Coding Bootcamp",
+      category: "Workshop",
+      date: "2025-06-15",
+      location: "Peshawar",
+    },
+    {
+      id: 8,
+      title: "Indie Music Meetup",
+      category: "Meetup",
+      date: "2025-06-18",
+      location: "Lahore",
+    },
+    {
+      id: 9,
+      title: "Tech Fest 2025",
+      category: "Festival",
+      date: "2025-06-20",
+      location: "Islamabad",
+    },
+    {
+      id: 10,
+      title: "Beginner’s Web Dev Workshop",
+      category: "Workshop",
+      date: "2025-06-25",
+      location: "Multan",
+    },
+    {
+      id: 11,
+      title: "Local Artist Meetup",
+      category: "Meetup",
+      date: "2025-06-27",
+      location: "Rawalpindi",
+    },
+    {
+      id: 12,
+      title: "Summer Book Fair",
+      category: "Festival",
+      date: "2025-07-01",
+      location: "Lahore",
+    },
+    {
+      id: 13,
+      title: "Python Crash Course",
+      category: "Workshop",
+      date: "2025-07-03",
+      location: "Karachi",
+    },
+    {
+      id: 14,
+      title: "Youth Empowerment Meetup",
+      category: "Meetup",
+      date: "2025-07-05",
+      location: "Islamabad",
+    },
+    {
+      id: 15,
+      title: "Cultural Heritage Festival",
+      category: "Festival",
+      date: "2025-07-07",
+      location: "Quetta",
+    },
+  ];
+  
+  export default events;
+  
